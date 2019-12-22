@@ -1,0 +1,11 @@
+- Основная информация
+    - [Главная](/#/)
+    - [О продукте](about/about.md)
+    - [Преимущества решения](about/pros_cons.md)
+    - [Что такое MODBUS?](about/modbus.md)
+- Быстрый старт
+    - [Первый запуск](fast_setup/first_start.md)
+    - [Настройка сети](fast_setup/setup_your_wifi.md)
+- Руководство настройки
+    - [Первый запуск](fast_setup/first_start.md)
+    - [Настройка сети](fast_setup/setup_your_wifi.md)
