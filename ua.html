@@ -74,6 +74,7 @@
 	<link rel="stylesheet" href="assets/css/default.css">
 	<!--====== Style CSS ======-->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
 <body>
 <noscript>
 	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPWW8JN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -118,25 +119,29 @@
 						<a class="navbar-brand" href="index.html">
 							<img src="assets/images/logo.svg" alt="Логотип">
 						</a>
-						<div class="">
-							<ul id="nav2" class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a class="page-scroll" href="/"><small>ru</small></a>
-								</li>
-								<li class="nav-item active">
-									<a class="page-scroll" href="/ua"><small>ua</small></a>
-								</li>
-								<li class="nav-item">
-									<a class="page-scroll" href="/en"><small>en</small></a>
-								</li>
-							</ul>
-						</div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarLanguage" aria-controls="navbarLanguage"
+								aria-expanded="false" aria-label="Toggle navigation">
+							<span class="flag-icon flag-icon-ua"> </span>
+						</button>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="toggler-icon"></span>
 							<span class="toggler-icon"></span>
 							<span class="toggler-icon"></span>
 						</button>
-
+						<div class="collapse navbar-collapse sub-menu-bar" id="navbarLanguage">
+							<ul class="navbar-nav ml-auto" >
+								<li class="nav-item ">
+									<a class="page-scroll" href="#"><span class="flag-icon flag-icon-ua"> </span>  <small>Українська</small></a>
+								</li>
+								<li class="nav-item">
+									<a class="page-scroll" href="/en"><span class="flag-icon flag-icon-us"> </span>  <small>English</small></a>
+								</li>
+								<li class="nav-item">
+									<a class="page-scroll" href="/"><span class="flag-icon flag-icon-ru"> </span>  <small>Русский</small></a>
+								</li>
+							</ul>
+						</div>
 						<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
 							<ul id="nav" class="navbar-nav ml-auto">
 								<li class="nav-item active">
