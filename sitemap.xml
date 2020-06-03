@@ -9,27 +9,27 @@
 
 <url>
   <loc>https://www.solar-control.tech/</loc>
-  <lastmod>2020-02-02T18:24:58+00:00</lastmod>
+  <lastmod>2020-06-01T15:07:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.solar-control.tech/index.html</loc>
-  <lastmod>2020-02-02T18:24:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.solar-control.tech/ua</loc>
-  <lastmod>2020-02-02T18:24:58+00:00</lastmod>
+  <loc>https://www.solar-control.tech/ru.html</loc>
+  <lastmod>2020-06-01T15:07:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.solar-control.tech/en</loc>
-  <lastmod>2020-02-02T18:24:58+00:00</lastmod>
+  <lastmod>2020-06-01T15:07:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.solar-control.tech/ru</loc>
+  <lastmod>2020-06-01T15:07:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.solar-control.tech/dist/docs/docs.html</loc>
-  <lastmod>2020-02-02T18:24:58+00:00</lastmod>
+  <lastmod>2020-06-01T15:07:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
