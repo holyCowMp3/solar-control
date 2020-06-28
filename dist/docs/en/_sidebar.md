@@ -1,0 +1,16 @@
+- Main information
+    - [Main](/#/)
+    - [About](../en/about/about.md)
+    - [Преимущества решения](../en/about/pros_cons.md)
+    - [Что такое MODBUS?](../en/about/modbus.md)
+- Quick start
+    - [Первый запуск](../en/fast_setup/first_start.md)
+    - [Настройка сети](../en/fast_setup/setup_your_wifi.md)
+- Telegram Bot
+    - [Первый запуск](../en/telegram/first_start.md)
+    - [Основные команды](../en/telegram/telegram.md)
+- Web-cabinet
+    - [Первый запуск](../en/fast_setup/first_start.md)
+    - [Настройка сети](../en/fast_setup/setup.md)
+- Law
+    - [Terms of use](../en/fast_setup/first_start.md)
