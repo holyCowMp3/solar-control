@@ -1,14 +1,14 @@
-- Основная информация
-    - [Главная](/#/)
-    - [О продукте](../ru/about/about.md)
-    - [Преимущества решения](../ru/about/pros_cons.md)
-    - [Что такое MODBUS?](../ru/about/modbus.md)
-- Быстрый старт
-    - [Первый запуск](../ru/fast_setup/first_start.md)
-    - [Настройка сети](fast_setup/setup_your_wifi.md)
+- Основна інформація
+    - [Головна](/#/)
+    - [Про продукт](../ua/about/about.md)
+    - [Переваги нашого рішення](../ua/about/pros_cons.md)
+    - [Що таке MODBUS?](../ua/about/modbus.md)
+- Швидкий старт
+    - [Перший запуск](../ru/fast_setup/first_start.md)
 - Телеграм-бот
-    - [Первый запуск](../ru/telegram/first_start.md)
     - [Основные команды](ru/telegram/telegram.md)
-- Личный кабинет
+- Особистий кабінет
     - [Первый запуск](../ru/fast_setup/first_start.md)
-    - [Настройка сети](fast_setup/setup.md)
+- Юриспуденція
+    - [Правила користування / Договір оферти](../ua/law/term_of_use.md)
+    - [Доставка](../ua/law/delivery.md)
