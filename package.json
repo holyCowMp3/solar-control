@@ -41,5 +41,8 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "main": ".eslintrc.js"
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "lottie-web": "^5.7.3"
+  }
 }
