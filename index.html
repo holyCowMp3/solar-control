@@ -1074,28 +1074,12 @@
         });
 
     </script>
-    <script type="text/javascript">
-        (function () {
-            var options = {
-                viber: "+380 63 581 22 02", // Viber number
-                telegram: "markfieldman", // Telegram bot username
-                call_to_action: "Зателефонуйте нам;)", // Call to action
-                button_color: "#2c50ce", // Color of button
-                position: "left", // Position may be 'right' or 'left'
-                order: "viber,telegram", // Order of buttons
-            };
-            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-
-        })();
+    <!-- widget -->
+    <script>
+        (function (w, d, u) {
+            var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 60000 | 0);
+            var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h);
+        })(window, document, 'https://cdn.bitrix24.ua/b19046463/crm/site_button/loader_2_9zw5uk.js');
     </script>
     <!--====== Bootstrap js ======-->
     <script src="assets/js/popper.min.js"></script>
