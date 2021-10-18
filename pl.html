@@ -698,7 +698,10 @@
                             </div>
                             <hr style="height: 20px">
                             </hr>
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded" target="_blank"> Kup Basic </a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded"
+                                    target="_blank"> Kup Basic </a>
+                            </div>
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -769,7 +772,10 @@
                             </div>
                             <hr style="height: 20px">
                             </hr>
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa" target="_blank"> Kup "PRO" </a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa"
+                                    target="_blank"> Kup "PRO" </a>
+                            </div>
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -783,7 +789,8 @@
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a target="_blank" href="#" name="plans">VIP*</a></h4>
-                            <h5 class="services-title"> <a target="_blank" href="#" name="prices"> <span class="small"> $ </span> 10
+                            <h5 class="services-title"> <a target="_blank" href="#" name="prices"> <span class="small">
+                                        $ </span> 10
                                     <span class="small"> / miesiąc </span>
                                 </a></h5>
                             <hr style="margin-top: 20px">
@@ -840,7 +847,10 @@
                             </div>
                             <hr style="height: 20px">
                             </hr>
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95" target="_blank"> Kup "VIP" </a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95"
+                                    target="_blank"> Kup "VIP" </a>
+                            </div>
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -1081,18 +1091,32 @@
     <script>$('#check-button').click(function () {
 
             let plans_1 = ['Базовый*', 'Продвинутый*', 'VIP*'];
-            let plans_2 = ['Базовый', "Продвинутый", "VIP"]
+            let plans_2 = ['Базовый', "Продвинутый", "VIP"];
+
             let html_1 = ["<span class=\"small\">$</span> 5 <span class=\"small\">/ месяц</span>", "<span class=\"small\">$</span> 7 <span class=\"small\">/ месяц</span>", "<span class=\"small\">$</span> 10 <span class=\"small\">/ месяц</span>"]
             let html_2 = ["<span class=\"small\">$</span> 250 <span class=\"small\">/ единоразово</span>", "<span class=\"small\">$</span> 350<span class=\"small\">/ единоразово</span>", "<span class=\"small\">$</span> 500 <span class=\"small\">/ единоразово</span>"]
+
+            let cost_1 = ['<a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded" target="_blank">Kup „Bazowij”</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa" target="_blank">Kup "Profi"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95" target="_blank">Kup "VIP"</a>']
+            let cost_2 = ['<a class="main-btn buy" href="https://secure.wayforpay.com/button/ba1f53256b795" target="_blank">Kup „Bazowij”</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b65675b0257e0" target="_blank">Kup "Profi"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/bab81a2e27781" target="_blank">Kup "VIP"</a>']
+
             let sub = ['цены без подписки', "цены с подпиской"];
+
             const t = document.getElementsByName("plans");
             const y = document.getElementsByName("prices");
+            const c = document.getElementsByName("cost");
+
             if (document.getElementById("check-button").className.includes("active")) {
                 $('#check-button').removeClass('active');
                 for (let e = 0; e < 3; e++) {
                     $('#btn-in-check').text(sub[0]);
                     t[e].innerText = plans_1[e];
                     y[e].innerHTML = html_1[e];
+                    c[e].innerHTML = cost_1[e];
+
                 }
             } else {
                 $('#check-button').addClass('active');
@@ -1100,7 +1124,7 @@
                     $('#btn-in-check').text(sub[1]);
                     t[e].innerText = plans_2[e];
                     y[e].innerHTML = html_2[e];
-
+                    c[e].innerHTML = cost_2[e];
                 }
             }
 

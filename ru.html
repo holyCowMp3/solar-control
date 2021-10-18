@@ -387,9 +387,9 @@
                         </div> <!-- section title -->
                         <p class="text">Веб-кабинет устройства доступен с любой точки мира. Все оповещения,
                             ссылки и новости о мониторинге прямо в вашем смартфоне!</p>
-                            <script data-b24-form="click/4/dsgt6t" data-skip-moving="true"> (function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://cdn.bitrix24.ua/b19046463/crm/form/loader_4.js');
-                            </script>
-                        <a class="main-btn wow fadeInUp buy" >Консультация</a>
+                        <script data-b24-form="click/4/dsgt6t" data-skip-moving="true"> (function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://cdn.bitrix24.ua/b19046463/crm/form/loader_4.js');
+                        </script>
+                        <a class="main-btn wow fadeInUp buy">Консультация</a>
                     </div>
                     <!-- about content -->
                 </div>
@@ -425,9 +425,9 @@
                         <p class="text">Будьте в курсе того, что происходит. Получайте мгновенные сообщения о статусах
                             ошибок, отключение сети и аварии. Мгновенно.
                             Бесплатно. В любой точке мира.</p>
-                            <script data-b24-form="click/4/dsgt6t" data-skip-moving="true"> (function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://cdn.bitrix24.ua/b19046463/crm/form/loader_4.js');
-                            </script>
-                        <a class="main-btn buy" >Закажите демо
+                        <script data-b24-form="click/4/dsgt6t" data-skip-moving="true"> (function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://cdn.bitrix24.ua/b19046463/crm/form/loader_4.js');
+                        </script>
+                        <a class="main-btn buy">Закажите демо
                             телеграмм-бота!</a>
                     </div> <!-- about content -->
                 </div>
@@ -696,7 +696,11 @@
                                 </div>
                             </div>
                             <hr style="height: 20px">
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded" target="_blank">Купить "Базовый"</a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded"
+                                    target="_blank">Купить "Базовый"</a>
+                            </div>
+
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -763,7 +767,10 @@
                                 </div>
                             </div>
                             <hr style="height: 20px">
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa" target="_blank">Купить "Профи"</a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa"
+                                    target="_blank">Купить "Профи"</a>
+                            </div>
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -831,7 +838,11 @@
                                 </div>
                             </div>
                             <hr style="height: 20px">
-                            <a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95" target="_blank">Купить "VIP"</a>
+                            <div name='cost'>
+                                <a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95"
+                                    target="_blank">Купить "VIP"</a>
+                            </div>
+
                         </div>
                     </div> <!-- single services -->
                 </div>
@@ -1050,18 +1061,31 @@
 
     <script>$('#check-button').click(function () {
             let plans_1 = ['Базовый*', 'Профи*', 'VIP*'];
-            let plans_2 = ['Базовый', "Профи", "VIP"]
+            let plans_2 = ['Базовый', "Профи", "VIP"];
+
             let html_1 = ["<span class=\"small\">$</span> 5 <span class=\"small\">/ місяць</span>", "<span class=\"small\">$</span> 7 <span class=\"small\">/ місяць</span>", "<span class=\"small\">$</span> 10 <span class=\"small\">/ місяць</span>"]
             let html_2 = ["<span class=\"small\">$</span> 250 <span class=\"small\">/ одноразово</span>", "<span class=\"small\">$</span> 350<span class=\"small\">/ одноразово</span>", "<span class=\"small\">$</span> 500 <span class=\"small\">/ одноразово</span>"]
+
+            let cost_1 = ['<a class="main-btn buy" href="https://secure.wayforpay.com/button/ba5ff0a921ded" target="_blank">Kупить "Базовый"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b883f7ba335fa" target="_blank">Купить "Профи"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b77bc3d02bd95" target="_blank">Купить "VIP"</a>']
+            let cost_2 = ['<a class="main-btn buy" href="https://secure.wayforpay.com/button/ba1f53256b795" target="_blank">Kупить "Базовый"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/b65675b0257e0" target="_blank">Купить "Профи"</a>',
+                '<a class="main-btn buy" href="https://secure.wayforpay.com/button/bab81a2e27781" target="_blank">Купить "VIP"</a>']
+
             let sub = ['цены без подписки', "цены с подпиской"];
+
             const t = document.getElementsByName("plans");
             const y = document.getElementsByName("prices");
+            const c = document.getElementsByName("cost");
+
             if (document.getElementById("check-button").className.includes("active")) {
                 $('#check-button').removeClass('active');
                 for (let e = 0; e < 3; e++) {
                     $('#btn-in-check').text(sub[0]);
                     t[e].innerText = plans_1[e];
                     y[e].innerHTML = html_1[e];
+                    c[e].innerHTML = cost_1[e];
                 }
             } else {
                 $('#check-button').addClass('active');
@@ -1069,7 +1093,7 @@
                     $('#btn-in-check').text(sub[1]);
                     t[e].innerText = plans_2[e];
                     y[e].innerHTML = html_2[e];
-
+                    c[e].innerHTML = cost_2[e];
                 }
             }
         });
