@@ -2015,6 +2015,15 @@ p {
   color: #FE8464;
 }
 
+.termsOfUse {
+  color: white;
+}
+
+.termsOfUse:hover {
+  transition: 0.3s;
+  color: #FE8464;
+}
+
 /*===== BACK TO TOP =====*/
 
 .back-to-top {
