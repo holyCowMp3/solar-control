@@ -1861,7 +1861,9 @@ p {
   color: #fff;
   background-position: right center;
 }
-
+.buy{
+  color: white!important;
+}
 /*===========================
        11.FOOTER  css
 ===========================*/
