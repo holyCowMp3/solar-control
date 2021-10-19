@@ -1083,11 +1083,54 @@ p {
 /* ============language=============== */
 
 .chooseLanguage {
-  text-decoration: none;
-  outline: none;
+  text-align: center;
   color: white;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 8px;
+  font-size: 16px;
+  padding: 3px 4px;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 115px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 115px;
+  z-index: 1;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-content li {
+  width: 100%;
+}
+
+.dropdown-content li a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: white!important;
+  padding: 0;
+}
+
+.dropdown-content li a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .chooseLanguage {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*===========================
@@ -1857,13 +1900,19 @@ p {
   }
 }
 
+.b24-widget-button-position-bottom-right {
+  padding: 20px;
+}
+
 .subscribe-form button:hover {
   color: #fff;
   background-position: right center;
 }
-.buy{
+
+.buy {
   color: white!important;
 }
+
 /*===========================
        11.FOOTER  css
 ===========================*/

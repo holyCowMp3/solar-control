@@ -185,21 +185,22 @@
                                 <img width="300" height="auto" src="assets/images/logo.svg" alt="Логотип SolarControl">
                             </a>
                             <button class="navbar-toggler" type="button">
-                                <select class="navbar-nav ml-auto chooseLanguage"
-                                    onChange="window.location.href=this.value">
-                                    <option class="nav-item" value="/index.html">
-                                        <span>🇺🇦UA</span>
-                                    </option>
-                                    <option class="nav-item" value="/en.html">
-                                        <span>🇬🇧EN</span>
-                                    </option>
-                                    <option class="nav-item" value="/pl.html">
-                                        <span>🇵🇱PL</span>
-                                    </option>
-                                    <option class="nav-item" value="/ru.html">
-                                        <span>🇷🇺RU</span>
-                                    </option>
-                                </select>
+                                <div class="navbar-nav ml-auto  dropdown">
+                                    <div class="chooseLanguage">
+                                        <span>🇺🇦 UA</span>
+                                    </div>
+                                    <ul class="dropdown-content ">
+                                        <li class="nav-item" value="/en.html">
+                                            <a href="/en.html">🇬🇧 EN</a>
+                                        </li>
+                                        <li class="nav-item" value="/pl.html">
+                                            <a href="/pl.html">🇵🇱 PL</a>
+                                        </li>
+                                        <li class="nav-item" value="/ru.html">
+                                            <a href="/ru.html">🇷🇺 RU</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </button>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-Controls="navbarSupportedContent"
@@ -230,21 +231,22 @@
 
                             </div>
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarLanguage">
-                                <select class="navbar-nav ml-auto chooseLanguage"
-                                    onChange="window.location.href=this.value">
-                                    <option class="nav-item" value="/index.html">
+                                <div class="navbar-nav ml-auto  dropdown">
+                                    <div class="chooseLanguage">
                                         <span>🇺🇦 Українська</span>
-                                    </option>
-                                    <option class="nav-item" value="/en.html">
-                                        <span>🇬🇧 English</span>
-                                    </option>
-                                    <option class="nav-item" value="/pl.html">
-                                        <span>🇵🇱 Polski</span>
-                                    </option>
-                                    <option class="nav-item" value="/ru.html">
-                                        <span>🇷🇺 Русский</span>
-                                    </option>
-                                </select>
+                                    </div>
+                                    <ul class="dropdown-content ">
+                                        <li class="nav-item" value="/en.html">
+                                            <a href="/en.html">🇬🇧 English</a>
+                                        </li>
+                                        <li class="nav-item" value="/pl.html">
+                                            <a href="/pl.html">🇵🇱 Polski</a>
+                                        </li>
+                                        <li class="nav-item" value="/ru.html">
+                                            <a href="/ru.html">🇷🇺 Русский</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -940,7 +942,7 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ">
                         <div class="subscribe-form mt-50">
                             <!-- SendPulse Simple Subscription Form -->
                             <form
