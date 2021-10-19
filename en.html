@@ -893,10 +893,15 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="subscribe-form mt-50">
-							<form action="#">
-								<input type="text" placeholder="Enter your email.">
+							<!-- SendPulse Simple Subscription Form -->
+							<form
+								action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo3ODQyMDM4LCJhZGRyZXNzX2Jvb2tfaWQiOjEwMDA0LCJsYW5nIjoicnUifQ=="
+								method="post">
+								<input type="email" placeholder="Enter your email" required name="email">
+								<input type="hidden" name="sender" value="tech@pm-dt.com">
 								<button class="main-btn">Subscribe</button>
 							</form>
+							<!-- SendPulse Simple Subscription Form -->
 						</div>
 					</div>
 				</div> <!-- row -->
