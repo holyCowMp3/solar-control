@@ -2103,3 +2103,418 @@ p {
 .back-to-top:hover {
   color: #fff;
 }
+.services-area pt-120{
+  position: relative;
+}
+
+.tab__bg {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+}
+.bg__right {
+  width: 50%;
+  margin-left: 450px;
+}
+.bg__right {
+  width: 50%;
+}
+.row_nav {
+  width: 100%;
+  max-width: 918px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background: #33C8C1;
+  /*justify-content: space-between;*/
+  padding: 10px;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 150px;
+
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background-size: 200%;
+}
+.navigation {
+  padding: 17px 42px 17px 35px;
+  cursor: pointer;
+  border-radius: 25px;
+  color: white;
+  width: 175px;
+  font-size: 24px;
+  font-weight: 500;
+
+  font-family: "Raleway", sans-serif;
+;
+
+}
+
+.navigation:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background: white;
+  transition: 0.5s;
+  color:black;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.navigation:hover .navigation__link{
+  color: #ffffff;
+}
+
+.tab__card {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tab__block {
+  display: flex;
+  margin-top: 70px;
+}
+
+.block__card {
+  position: relative;
+  background-color: #ffffff;
+
+  max-width: 100%;
+  width: 354px;
+  font-family: "Raleway", sans-serif;
+
+  margin:0  auto;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,5%), 0 10px 10px rgba(0,0,0,2%);
+}
+.block__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.block__free {
+  top: 30px;
+  left: 140px;
+}
+.block__minimal {
+  top: 30px;
+  left: 120px;
+}
+.block__standart {
+  top: 30px;
+  left: 110px;
+}
+.block__vip {
+  top: 30px;
+  left: 150px;
+}
+
+
+.block__info {
+  margin-top: 40px;
+  padding-left: 15px;
+  height: 265px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+.info {
+  margin-bottom: 25px;
+}
+
+.info:last-child {
+  margin-bottom: 0;
+}
+.block__price {
+  margin-top: 25px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.block__cost {
+  display: flex;
+  justify-content: space-between;
+}
+.subscription__block {
+  display: flex;
+  justify-content: space-between;
+  color: #FE6E9A;
+}
+.total__block {
+  display: flex;
+  justify-content: space-between;
+}
+.info__minimal {
+  margin-bottom: 10px;
+}
+.price__block {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.total__btn {
+  width: 185px;
+}
+
+.cost__price {
+  padding-right: 15px;
+}
+.subscription__price {
+  padding-right: 15px;
+}
+.total__price {
+  padding-right: 15px;
+
+}
+
+.years__sales {
+  display: flex;
+}
+
+.navigation__block {
+  display: flex;
+  position: relative;
+
+}
+.navigation__link {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #FE8464;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.navigation__link-more {
+  left: 70px;
+}
+
+.navigation > .navigation__link:hover {
+  color: #ffffff
+}
+.navigation__img {
+  display: none;
+}
+.navigation__body {
+  display: flex;
+}
+
+.col__flex {
+  display: flex;
+
+}
+.blue {
+  color: #21B0CB;
+  text-decoration: line-through;
+  padding-right: 5px;
+}
+.navigation__select {
+  display: none;
+}
+.navigation__body__select {
+  display: none;
+}
+.card__flex {
+  display: flex;
+}
+.card__block {
+
+  display: flex;
+  width: 100%;
+
+}
+
+@media (max-width: 1440px) {
+  .block__card {
+    width: 300px;
+  }
+  .block__free {
+    top: 25px;
+    left: 115px;
+  }
+  .block__minimal {
+    top: 25px;
+    left: 90px;
+  }
+  .block__standart {
+    top: 25px;
+    left: 90px;
+  }
+  .block__vip {
+    top: 25px;
+    left: 125px;
+  }
+  .block__info {
+    font-size: 16px;
+  }
+  .block__cost {
+    font-size: 16px;
+  }
+  .subscription__block {
+    font-size: 16px;
+  }
+  .total__block {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .block__card {
+    width: 250px;
+  }
+  .block__free {
+    top: 10px;
+    left: 85px;
+  }
+  .block__minimal {
+    top: 10px;
+    left: 70px;
+  }
+  .block__standart {
+    top: 10px;
+    left: 60px;
+  }
+  .block__vip {
+    top: 10px;
+    left: 100px;
+  }
+  .block__info {
+    font-size: 14px;
+  }
+  .block__cost {
+    font-size: 14px;
+  }
+  .subscription__block {
+    font-size: 14px;
+  }
+  .total__block {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .block__card {
+    width: 225px;
+  }
+  .block__free {
+    top: 10px;
+    left: 75px;
+  }
+  .block__minimal {
+    top: 10px;
+    left: 60px;
+  }
+  .block__standart {
+    top: 10px;
+    left: 50px;
+  }
+  .block__vip {
+    top: 10px;
+    left: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation {
+    margin: 0 auto;
+    width: 325px;
+    /*background: #ffffff;*/
+    /*box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);*/
+    /*color: black;*/
+  }
+
+  .navigation__block {
+    margin-left: 68px;
+  }
+
+  .row_nav {
+
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+
+
+  }
+  .row_nav.is-active .navigation__body {
+    display: block;
+
+  }
+  .tab__block {
+    display: block;
+
+  }
+  .block__card {
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 354px;
+  }
+  .navigation__body {
+    display: none;
+  }
+
+  .navigation__header {
+    display: flex;
+  }
+  .navigation__img {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+  }
+
+  .navigation__select {
+    display: block;
+  }
+  .navigation__month {
+    display: none;
+  }
+  .navigation__body__select {
+    display: block;
+  }
+  .block__free {
+    top: 30px;
+    left: 140px;
+  }
+  .block__minimal {
+    top: 30px;
+    left: 120px;
+  }
+  .block__standart {
+    top: 30px;
+    left: 110px;
+  }
+  .block__vip {
+    top: 30px;
+    left: 150px;
+  }
+  .block__info {
+    font-size: 20px;
+  }
+  .block__cost {
+    font-size: 20px;
+  }
+  .subscription__block {
+    font-size: 20px;
+  }
+  .total__block {
+    font-size: 20px;
+  }
+  .price__block {
+    padding-bottom: 40px;
+  }
+}
