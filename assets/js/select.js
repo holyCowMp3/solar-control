@@ -15,15 +15,15 @@ let select = function () {
 
 
 
-    const actives = document.getElementsByClassName('active');
+    const actives = document.getElementsByClassName('active__nav');
     for ( let i = 0; selectBlock.length > i; i++) {
         selectBlock[i].onclick = function() {
-            const currentActive = actives[1];
+            const currentActive = actives[0];
             if (currentActive)
-                currentActive.classList.remove("active");
+                currentActive.classList.remove("active__nav");
 
             if (currentActive !== this)
-                this.classList.add("active");
+                this.classList.add("active__nav");
         };
     }
     // for (var i = 0; i < selectBlock.length; i++) {
