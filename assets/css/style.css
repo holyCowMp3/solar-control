@@ -2161,8 +2161,10 @@ p {
 .navigation:last-child {
   margin-right: 0;
 }
-
-.active {
+.navigation__title__pl {
+  font-size: 23px;
+}
+.active__nav {
   background: white;
   transition: 0.5s;
   color:black;
