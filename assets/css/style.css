@@ -2342,7 +2342,18 @@ p {
   width: 100%;
 
 }
+.discount__block {
+  display: flex;
+  justify-content: space-between;
+  color: #0BA360;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.discount__price {
+  padding-right: 15px;
 
+}
 @media (max-width: 1440px) {
   .block__card {
     width: 300px;
@@ -2373,6 +2384,9 @@ p {
     font-size: 16px;
   }
   .total__block {
+    font-size: 16px;
+  }
+  .discount__block {
     font-size: 16px;
   }
 }
@@ -2465,9 +2479,10 @@ p {
 
   }
   .block__card {
-    margin-bottom: 20px;
+
     max-width: 100%;
     width: 354px;
+    margin: 0 auto;
   }
   .navigation__body {
     display: none;
