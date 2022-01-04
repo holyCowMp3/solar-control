@@ -2183,6 +2183,7 @@ p {
 .tab__block {
   display: flex;
   margin-top: 70px;
+  justify-content: center;
 }
 
 .block__card {
@@ -2193,7 +2194,7 @@ p {
   width: 354px;
   font-family: "Raleway", sans-serif;
 
-  margin:0  auto;
+  margin: 0 30px;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0,0,0,5%), 0 10px 10px rgba(0,0,0,2%);
 }
@@ -2378,7 +2379,10 @@ p {
 
 @media (max-width: 1250px) {
   .block__card {
-    width: 250px;
+    width: 275px;
+  }
+  .block__info {
+    padding-left: 10px;
   }
   .block__free {
     top: 10px;
@@ -2415,19 +2419,19 @@ p {
   }
   .block__free {
     top: 10px;
-    left: 75px;
+    left: 60px;
   }
   .block__minimal {
     top: 10px;
-    left: 60px;
+    left: 40px;
   }
   .block__standart {
     top: 10px;
-    left: 50px;
+    left: 40px;
   }
   .block__vip {
     top: 10px;
-    left: 90px;
+    left: 80px;
   }
 }
 
