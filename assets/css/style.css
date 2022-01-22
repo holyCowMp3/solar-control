@@ -2183,6 +2183,7 @@ p {
 .tab__block {
   display: flex;
   margin-top: 70px;
+  justify-content: center;
 }
 
 .block__card {
@@ -2193,7 +2194,7 @@ p {
   width: 354px;
   font-family: "Raleway", sans-serif;
 
-  margin:0  auto;
+  margin: 0 30px;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0,0,0,5%), 0 10px 10px rgba(0,0,0,2%);
 }
@@ -2341,7 +2342,18 @@ p {
   width: 100%;
 
 }
+.discount__block {
+  display: flex;
+  justify-content: space-between;
+  color: #0BA360;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.discount__price {
+  padding-right: 15px;
 
+}
 @media (max-width: 1440px) {
   .block__card {
     width: 300px;
@@ -2374,11 +2386,17 @@ p {
   .total__block {
     font-size: 16px;
   }
+  .discount__block {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1250px) {
   .block__card {
-    width: 250px;
+    width: 275px;
+  }
+  .block__info {
+    padding-left: 10px;
   }
   .block__free {
     top: 10px;
@@ -2415,19 +2433,19 @@ p {
   }
   .block__free {
     top: 10px;
-    left: 75px;
+    left: 60px;
   }
   .block__minimal {
     top: 10px;
-    left: 60px;
+    left: 40px;
   }
   .block__standart {
     top: 10px;
-    left: 50px;
+    left: 40px;
   }
   .block__vip {
     top: 10px;
-    left: 90px;
+    left: 80px;
   }
 }
 
@@ -2461,9 +2479,10 @@ p {
 
   }
   .block__card {
-    margin-bottom: 20px;
+
     max-width: 100%;
     width: 354px;
+    margin: 0 auto;
   }
   .navigation__body {
     display: none;
